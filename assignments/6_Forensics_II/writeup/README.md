@@ -1,16 +1,21 @@
-Name: William Guo 
+# Writeup 6 - Forensics
+
+Name: William Guo
 Section: 0101
 
 I pledge on my honor that I have not given or received any unauthorized assistance on this assignment or examination.
 
 Digital acknowledgement: William Guo
 
-### Part 1 (45 Pts)
+## Assignment Writeup
 
+### Part 1 (45 Pts)
 1. Warmup: what IP address has been attacked?
    185.199.110.153
 
 2. What kind of assessment tool(s) were the attackers using against the victim machine? List the name(s) of the tool(s) as well.
+   It seemed like they used a port scanner to request ports 159, 203, 113, 181, 165 and 121. This can be done to find open ports
+   that are vulnerable. This can be done with using netcat.
 
 3. What are the hackers' IP addresses, and where are they connecting from?
    159.203.113.181. They are connecting from a server on the 10th floor of New York, NY
@@ -42,10 +47,9 @@ Digital acknowledgement: William Guo
 7. What is a countermeasure to prevent this kind of intrusion from happening again? Note: disabling the vulnerable service is *not* an option.
    I would add additonal passwords or some kind of administrative privelege in order to export or import files. Also I would hash the password
    and salt it as well to make the password harder to crack.
-
+   
 ### Part 2 (55 Pts)
-
-    1. When was `greetz.fpff` generated?
+1. When was `greetz.fpff` generated?
 	   It was generated on 2019-03-27 00:15:05
     2. Who authored `greetz.fpff`?
 	   It was authored by fl1nch
@@ -72,4 +76,3 @@ Digital acknowledgement: William Guo
 	   The second flag I found was in the PNG image. It was CMSC389R-{w3lc0me_b@ck_fr0m_spr1ng_br3ak}
 	   The third flag I found was the last section. I translated it to a base64 format and got back
 	   CMSC389R-{hey_h3y_y0U_you_I_dont_like_your_base64_encoding}
-
