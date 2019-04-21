@@ -10,7 +10,9 @@ Digital acknowledgement: William Guo
 
 ## Assignment Writeup
 
-### Part 1 (100 Pts)
+### Part 1 (70 Pts)
+
+### Part 2 (30 Pts)
 
 I thought this project was pretty simplistic. Obviously this would be useless in the real
 world since we could assume that the password was only salted with a single character.
